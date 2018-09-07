@@ -4,7 +4,7 @@ import pyowm
 import os
 
 app = Flask(__name__)
-owmapikey=os.environ.get('OWMApiKey') #or provide your key here
+owmapikey=os.environ.get('964581cfceb148b68d155954182908 ') #or provide your key here
 owm = pyowm.OWM(owmapikey)
 
 #geting and sending response to dialogflow
